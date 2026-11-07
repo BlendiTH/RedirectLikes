@@ -1,0 +1,8 @@
+{
+  "name": "redirect-likes",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "bun build src/index.js --outfile dist/redirect-likes.js --format iife --loader .css:text"
+  }
+}
